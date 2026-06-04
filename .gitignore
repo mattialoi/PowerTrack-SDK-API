@@ -1,0 +1,30 @@
+# Virtual Environment 
+**/.venv*/
+.venv/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+
+# Ignore pytest cache folder
+.pytest_cache/
+
+# Database files (local data)
+#data/*.db
+
+# Diagnostic files
+project_structure.txt
+
+# macOS specific files
+.DS_Store
+
+# configuration files
+.python-version
+
+# Local SQLite database (if used for demo or testing)
+data/fitness.db
+
+# build and dist folders created by setuptools or similar tools
+dist/
+build/
+*.egg-info/
