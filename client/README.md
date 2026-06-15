@@ -140,17 +140,6 @@ HTTP 4xx and 5xx errors are caught at the transport layer and raised as typed Py
 - `PowerTrackConflictError` (409 Conflict)
 - `PowerTrackServerError` (500 Server Error)
 
----
-
-## API Reference & Guides
-
-For complete method signatures, type hints, active-record definitions, and plotter configuration details, refer to:
-1. **[API Reference Guide](API_REFERENCE.md)**
-2. **[Domain Models Guide](src/client/models/README.md)**
-3. **[Sub-Client resources Guide](src/client/resources/README.md)**
-4. **[Test Suite Documentation](tests/README.md)**
-
----
 
 ## Testing
 
